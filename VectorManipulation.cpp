@@ -8,3 +8,13 @@ long long getSum(const std::vector<long long>& numbers) {
     }
     return sum;
 }
+
+long long getMin(const std::vector<long long>& numbers) {
+    long long min = (long long)1e14;
+    for (int i = 0; i < numbers.size(); i++) {
+        if (numbers[i] < min) {
+            min = numbers[i];
+        }
+    }
+    return min;
+}
