@@ -3,6 +3,6 @@
 
 #include <vector>
 
-
+long long getSum(const std::vector<long long>& numbers);
 
 #endif
