@@ -5,5 +5,6 @@
 
 long long getSum(const std::vector<long long>& numbers);
 double getAvg(const std::vector<long long>& numbers);
+long long getMin(const std::vector<long long>& numbers);
 
 #endif
